@@ -6,23 +6,23 @@ The three .m files bpgauss.m, lpgauss.m and hpgauss.m are filter creation functi
 How to use:
 1. Upon running the script hilostack.m you will be asked several times to select various files.
 
-1.1 First you can select a correction file for flatness of field. This is optional, if you press 'cancel', the correction defaults to unity.
+    1.1 First you can select a correction file for flatness of field. This is optional, if you press 'cancel', the correction defaults to unity.
 
-1.2 Second you have to select ALL uniform illumination files you wish to process.
+    1.2 Second you have to select ALL uniform illumination files you wish to process.
 
-1.3 Third you have to select ALL speckle illumination files for processing
+    1.3 Third you have to select ALL speckle illumination files for processing
 
 NOTE: Number of files of 1.2 and 1.3 have to be the same (these are image pairs)
 
 2. Next you have to specify the HiLo parameters used for processing
 
-2.1 First is the parameter for optical sectioning thickness. This should be done in integer numbers starting from 1. The actual thickness 
+    2.1 First is the parameter for optical sectioning thickness. This should be done in integer numbers starting from 1. The actual thickness 
     will depend on your image parameters as well as the speckle pattern forming in the sample.
 
-2.2 Second is the low frequency scaling factor. This should generally be left at 1 and the actual scaling will be chosen later and should
+    2.2 Second is the low frequency scaling factor. This should generally be left at 1 and the actual scaling will be chosen later and should
       generally be obtained by experimenting with different values but should be close to 1.
 
-2.3 Third the scale of your images in pixels/micron.
+    2.3 Third the scale of your images in pixels/micron.
 
 3. The script will run now until all HiLo related processing is complete and will evaluate the ratio of high to low spatial frequencies at the
     cut-off frequency between low and high pass filter. You can now pick a scaling or choose an individual one as mentioned in 2.2 this should
