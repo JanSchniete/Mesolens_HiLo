@@ -19,10 +19,7 @@ NOTE: Number of files of 1.2 and 1.3 have to be the same (these are image pairs)
     2.1 First is the parameter for optical sectioning thickness. This should be done in integer numbers starting from 1. The actual thickness 
     will depend on your image parameters as well as the speckle pattern forming in the sample.
 
-    2.2 Second is the low frequency scaling factor. This should generally be left at 1 and the actual scaling will be chosen later and should
-      generally be obtained by experimenting with different values but should be close to 1.
-
-    2.3 Third the scale of your images in pixels/micron.
+    2.2 Second the scale of your images in pixels/micron.
 
 3. The script will run now until all HiLo related processing is complete and will evaluate the ratio of high to low spatial frequencies at the
     cut-off frequency between low and high pass filter. You can now pick a scaling or choose an individual one as mentioned in 2.2 this should
