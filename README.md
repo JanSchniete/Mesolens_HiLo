@@ -22,7 +22,7 @@ NOTE: Number of files of 1.2 and 1.3 have to be the same (these are image pairs)
     2.2 Second the scale of your images in pixels/micron.
 
 3. The script will run now until all HiLo related processing is complete and will evaluate the ratio of high to low spatial frequencies at the
-    cut-off frequency between low and high pass filter. You can now pick a scaling or choose an individual one as mentioned in 2.2 this should
+    cut-off frequency between low and high pass filter. You can now pick a scaling or choose an individual one, this should
     be close to 1 as the images have been normalised. However, it is best to try different values and evaluate which gives the best results.
     
 NOTE: This code makes use of the gpuArray function of MATLAB, if you receive an out-of-memory error for either RAM or VRAM, please contact me.
